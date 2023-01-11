@@ -1,0 +1,32 @@
+<!-- Login page html -->
+<!-- When a use logs in, we will use mongo look up to see if their account exists, and if yes
+then we log them in
+If their account does not exist, then error message (alert)
+They can make an account, which will use mongo insert -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel='stylesheet' href='/styles/style.css' />
+	<meta charset="utf-8" />
+	<title>PokemonGrab Login</title>
+</head>
+
+<body>
+	<h1>Caught!</h1>
+    <h2><%- pokeName -%></h2>
+    <br>
+    <h3> Lvl: <%- pokeLvl -%></h3>
+    <br>
+    <img src= <%- pokeImg -%>>
+    <br>
+	<strong>User: </strong> <%- currentProfile -%>
+    <br>
+    <hr>
+
+    <a href="/">Switch Profile</a> 
+    <a href="/menu">Menu</a> 
+    <a href="/wild">Wild</a> 
+</body>
+
+</html>

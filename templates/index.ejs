@@ -1,0 +1,28 @@
+<!-- Login page html -->
+<!-- When a use logs in, we will use mongo look up to see if their account exists, and if yes
+then we log them in
+If their account does not exist, then error message (alert)
+They can make an account, which will use mongo insert -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel='stylesheet' href='/styles/style.css' />
+	<meta charset="utf-8" />
+	<title>PokemonGrab Login</title>
+</head>
+
+<body>
+	<h1>Welcome to PokemonGrab!</h1>
+    <p>This app is similar to the popular PokemonGo! mobile game. Select a profile to start collecting Pokemons!</p>
+    <br>
+    <fieldset>
+	<h2>Type Profile Name:</h2>
+    <form method="POST">
+        <label>Profile Name: <input type="text" name="name"/></label>
+        <input type="submit" value="Select Profile"/>
+    </form>
+    </fieldset>
+</body>
+
+</html>

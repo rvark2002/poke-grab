@@ -1,0 +1,37 @@
+html {
+    font-size:24px;
+    background-color: rgb(120, 201, 125);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: rgb(120, 201, 125);
+
+}
+
+h1 {
+    text-decoration: underline;
+    font-weight: bold; 
+    
+}
+
+img{
+    height: 18rem;
+    width: 18rem;
+}
+
+
+input{
+    background-color: goldenrod;
+    height:6rem;
+    width:18rem;
+    
+}
+
+#runbtn{
+    background-color: lightblue;
+    height:6rem;
+    width:18rem;
+}

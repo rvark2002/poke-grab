@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <link rel='stylesheet' href='/styles/wild.css' />
+	<meta charset="utf-8" />
+	<title>PokemonGrab</title>
+</head>
+
+<body>
+    <script type="module" src="/scripts/wildScript.js"></script>
+	<h1>Wild</h1>
+
+    <div id = "wild"></div>
+    <!-- maybe just do some buttons/link pictures of pokemons as a button, user clicks it then pokemon is caught -->
+    <form method="POST">
+    <input type="hidden" name="pokemonName" id="pokeName">
+    <input type="hidden" name="pokemonLevel" id="pokeLvl">
+    <input type="hidden" name="pokemonImg" id="pokeImg">
+    <input type="hidden" name="pokemonLink" id="pokeLink">
+    <br>
+    <input type="submit" id="catchbtn" onClick="" value="Catch">
+    </form>
+
+    <button id="runbtn" onClick="window.location.reload();">Run</button>
+   
+
+    <br> 
+
+	<hr>
+    <a href="/">Switch Profile</a> 
+    <a href="/menu">Menu</a> 
+    <a href="/wild">Wild</a> 
+</body>
+
+</html>
